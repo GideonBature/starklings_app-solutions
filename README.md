@@ -31,6 +31,14 @@
 
     You need to implement the trait `AnimalTrait` for them.
 
+- ### [Traits 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/traits_3.cairo)
+    The previous exercise showed how to implement a trait for multiple types.
+
+    This exercise shows how you can implement multiple traits for a single type.
+
+    This is useful when you have types that share some common functionality, but also have some unique functionality.
+
+
 ## Hints
 
 - ### [Move Semantics 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_2.cairo)
@@ -112,5 +120,16 @@
 
 - ### [Traits 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/traits_2.cairo)
     No hints for this one! It is very similar to the previous exercise.
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
+- ### [Traits 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/traits_3.cairo)
+    You can implement multiple traits for a type.
+    When a trait is destined to be implemented by a single type, you don't need to use generics.
+    If you're having trouble updating the distance value in the `Fish` and `Dog` impls, remember that you need to first
+    1. Destructure the object into mutable variables
+    2. Update the distance variable
+    3. Reconstruct `self` with the updated variables (`self = MyStruct { ... }`) 
+
 
     Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
