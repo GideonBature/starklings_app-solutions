@@ -2,6 +2,9 @@
 
 ## Exercises
 
+- ### [Move Semantics 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_1.cairo)
+    Having trouble to solve this one? Click 'GET HINT' button for help!
+
 - ### [Move Semantics 5](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_5.cairo)
     Make me compile only by reordering the lines in `main()`, but without adding, changing or removing any of them.
 
@@ -102,6 +105,16 @@
 
 
 ## Hints
+
+- ### [Move Semantics 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_1.cairo)
+
+    So you've got the "ref argument must be a mutable variable." error on line 10, right? The fix for this is going to be adding one keyword, and the addition is NOT on line 10 where the error is.
+    Also: Try accessing `arr0` after having called `fill_arr()`. See what happens!
+    Read more about move semantics and ownership here: https://book.cairo-lang.org/ch04-01-what-is-ownership.html
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
 
 - ### [Move Semantics 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_2.cairo)
     So, `arr0` is passed into the `fill_arr` function as an argument. In Cairo, when an argument is passed to a function and it's not explicitly returned, you can't use the original variable anymore. We call this "moving" a variable.
