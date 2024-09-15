@@ -8,6 +8,8 @@
 - ### [Move Semantics 6](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_6.cairo)
     You can't change anything except adding or removing references.
 
+    ---
+
 - ### [Traits 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/traits_1.cairo)
     Time to implement some traits!
 
@@ -38,6 +40,31 @@
 
     This is useful when you have types that share some common functionality, but also have some unique functionality.
 
+    ---
+
+- ### [Dict 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/dict_1.cairo)
+
+    The Felt252Dict maps a felt252 to a value of the specified type.
+
+    In this exercise, you will map a `felt252` key to a value of type `u32`.
+
+
+
+    Your task is to create a `Felt252Dict` containing three elements of type `u32`.
+
+    The first element should map the key 'A' to the value 1, the second key 'B' to the value 2
+
+    and the third should map 'bob' to the value 3.
+
+    Make me compile and pass the test!
+
+- ### [Dict 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/dict_2.cairo)
+    Dictionaries can be used to simulate dynamic array : the value they store can be accessed and modified.
+
+    Your task is to create a function that multiplies the elements stored at the indexes 0 to n of a dictionary by 10
+
+    Make me compile and pass the test!
+
 
 ## Hints
 
@@ -57,15 +84,11 @@
 
     Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
 
----
-
 - ### [Move Semantics 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_3.cairo)
 
     The difference between this one and the previous ones is that the first line of `fn fill_arr` that had `let mut arr = arr;` is no longer there. You can, instead of adding that line back, add `mut` in one place that will change an existing binding to be a mutable binding instead of an immutable one :)
 
     Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
-
----
 
 - ### [Move Semantics 4](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_4.cairo)
 
@@ -80,7 +103,6 @@
 
     Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
 
----
 
 - ### [Move Semantics 5](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_5.cairo)
     Carefully reason about how each function takes ownership of the variable passed.
@@ -104,6 +126,8 @@
 
 
     Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
+    ---
 
 - ### [Traits 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/traits_1.cairo)
     If you want to implement a trait for a type, you have to implement all the methods in the trait.
@@ -130,6 +154,22 @@
     1. Destructure the object into mutable variables
     2. Update the distance variable
     3. Reconstruct `self` with the updated variables (`self = MyStruct { ... }`) 
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
+    ---
+
+- ### [Dict 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/dict_1.cairo)
+    More info about the Felt252Dict type can be found in the following chapter :
+    https://book.cairo-lang.org/ch03-02-dictionaries.html
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
+- ### [Dict 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/dict_2.cairo)
+    More info about the Felt252Dict type can be found in the following chapter :
+    https://book.cairo-lang.org/ch03-02-dictionaries.html
 
 
     Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
