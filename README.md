@@ -92,6 +92,14 @@
 
     ---
 
+-### [Starknet 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/starknet_1.cairo)
+    Starkling, Joe, is writing a really simple contract.
+
+    The contract shows that he is the owner of the contract.
+
+    However, his contract is not working. What's he missing?
+
+
 
 ## Hints
 
@@ -223,4 +231,9 @@
     Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
 
     ---
-    
+
+- ### [Starknet 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/starknet_1.cairo)
+    No hints this time ;)
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
