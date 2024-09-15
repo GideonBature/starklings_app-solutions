@@ -2,6 +2,9 @@
 
 ## Exercises
 
+- ### [Arrays 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_3.cairo)
+    Make me compile and pass the test!
+
 - ### [Structs 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_1.cairo)
     Address all the TODOs to make the tests pass!
 
@@ -125,6 +128,17 @@
 
 
 ## Hints
+
+
+
+
+- ### [Arrays 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_3.cairo)
+    The test fails because you are trying to access an element that is out of bounds!
+    By using array.pop_front(), we remove the first element from the array, so the index of the last element is no longer 2.
+    Without changing the index accessed, how can we make the test pass? Is there a method that returns an option that could help us?
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
 
 - ### [Structs 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_1.cairo)
     Cairo has a single type of struct that are named collections of related data stored in fields.
