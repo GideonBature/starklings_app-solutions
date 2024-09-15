@@ -65,6 +65,19 @@
 
     Make me compile and pass the test!
 
+- ### [Dict 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/dict_3.cairo)
+
+    Custom data structure using dicts
+
+    Using Felt252Dict in structs allow us to simulate mutable data structures
+
+    In this exercise we have a struct Team where a Felt252Dict maps the name of a player to its level and keeps track of the number of player.
+
+    Using the methods set and get from the Felt252DictTrait, implement the required functions to interact with the team
+
+    Make me compile and pass the test!
+
+
 
 ## Hints
 
@@ -170,6 +183,13 @@
 - ### [Dict 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/dict_2.cairo)
     More info about the Felt252Dict type can be found in the following chapter :
     https://book.cairo-lang.org/ch03-02-dictionaries.html
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
+- ### [Dict 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/dict_3.cairo)
+    Example of custom data structures using dicts can be found in this chapter :
+    https://book.cairo-lang.org/ch03-03-custom-data-structures.html
 
 
     Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
