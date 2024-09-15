@@ -87,6 +87,10 @@
 
     Can you fix this?
 
+- ### [Modules 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/modules_2.cairo)
+    These modules have some issues, can you fix?
+
+    ---
 
 
 ## Hints
@@ -207,3 +211,16 @@
     ---
 
 - ### [Modules 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/modules_1.cairo)
+    You can bring a parent's modules items in the current module with super::item_name
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
+- ### [Modules 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/modules_2.cairo)
+    While using functions/structs and other items from outside the module, you can refer to them with their full path or import them in the current context with the use keyword.
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
+    ---
+    
