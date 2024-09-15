@@ -7,7 +7,7 @@ fn main() {
     print(arr0.span());
 }
 
-fn fill_arr(ref arr: Array<felt252>) -> Array<felt252> {
+fn fill_arr(ref arr: Array<felt252>) {
     arr.append(22);
     arr.append(44);
     arr.append(66);
@@ -30,4 +30,3 @@ fn print(span: Span<felt252>) {
     };
     println!(" ] }}");
 }
-
