@@ -77,6 +77,16 @@
 
     Make me compile and pass the test!
 
+    ---
+
+- ### [Modules 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/modules_1.cairo)
+
+    We are writing an app for a restaurant,
+
+    but take_order functions are not being called correctly.
+
+    Can you fix this?
+
 
 
 ## Hints
@@ -193,3 +203,7 @@
 
 
     Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
+    ---
+
+- ### [Modules 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/modules_1.cairo)
