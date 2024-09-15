@@ -2,6 +2,11 @@
 
 ## Exercises
 
+- ### [Arrays 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_2.cairo)
+    Your task is to make the test pass without modifying the `create_array` function.
+
+    Make me compile and pass the test!
+
 - ### [Arrays 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_3.cairo)
     Make me compile and pass the test!
 
@@ -130,7 +135,13 @@
 ## Hints
 
 
+- ### [Arrays 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_2.cairo)
+    How can you remove the first element from the array?
+    Take a look at the previous exercise for a hint. Don't forget to call `.unwrap()` on the returned value.
+    This will prevent the `Variable not dropped` error.
 
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
 
 - ### [Arrays 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_3.cairo)
     The test fails because you are trying to access an element that is out of bounds!
