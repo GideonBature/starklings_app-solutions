@@ -2,15 +2,15 @@
 
 ## Exercises
 
-- ### [Move Semantics 5]()
+- ### [Move Semantics 5](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_5.cairo)
     Make me compile only by reordering the lines in `main()`, but without adding, changing or removing any of them.
 
-- ## [Move Semantics 6]()
+- ### [Move Semantics 6](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_6.cairo)
     You can't change anything except adding or removing references.
 
 ## Hints
 
-- ### [Move Semantics 2]()
+- ### [Move Semantics 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_2.cairo)
     So, `arr0` is passed into the `fill_arr` function as an argument. In Cairo, when an argument is passed to a function and it's not explicitly returned, you can't use the original variable anymore. We call this "moving" a variable.
     Variables that are moved into a function (or block scope) and aren't explicitly returned get "dropped" at the end of that function. This is also what happens here.
     There's a few ways to fix this, try them all if you want:
@@ -28,7 +28,7 @@
 
 ---
 
-- ### [Move Semantics 3]()
+- ### [Move Semantics 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_3.cairo)
 
     The difference between this one and the previous ones is that the first line of `fn fill_arr` that had `let mut arr = arr;` is no longer there. You can, instead of adding that line back, add `mut` in one place that will change an existing binding to be a mutable binding instead of an immutable one :)
 
@@ -36,7 +36,7 @@
 
 ---
 
-- ### [Move Semantics 4]()
+- ### [Move Semantics 4](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_4.cairo)
 
     Stop reading whenever you feel like you have enough direction :) Or try doing one step and then fixing the compiler errors that result!
     So the end goal is to:
@@ -51,7 +51,7 @@
 
 ---
 
-- ### [Move Semantics 5]()
+- ### [Move Semantics 5](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_5.cairo)
     Carefully reason about how each function takes ownership of the variable passed.
     It depends on the keyword used to pass the variable.
     What happens when a function takes ownership of a variable and then returns it?
@@ -60,7 +60,7 @@
 
     Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
 
-- ### [Move Semantics 6]()
+- ### [Move Semantics 6](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_6.cairo)
     The first problem is that `get_value` is taking ownership of the Number struct.
     So `Number` is moved and can't be used for `set_value` 
     `number` is moved to `get_value` first, meaning that `set_value` cannot manipulate the data.
