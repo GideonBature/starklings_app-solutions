@@ -1,4 +1,5 @@
 fn main() {
+    // added the mutable keyword here since we need to modify the array
     let mut arr0 = ArrayTrait::new();
 
     let mut arr1 = fill_arr(arr0);
@@ -10,6 +11,7 @@ fn main() {
     print(arr1.span());
 }
 
+// added the mutable keyword in the parameter here
 fn fill_arr(mut arr: Array<felt252>) -> Array<felt252> {
     arr.append(22);
     arr.append(44);
