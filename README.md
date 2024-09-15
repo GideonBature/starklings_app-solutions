@@ -92,7 +92,7 @@
 
     ---
 
--### [Starknet 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/starknet_1.cairo)
+- ### [Starknet 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/starknet_1.cairo)
     Starkling, Joe, is writing a really simple contract.
 
     The contract shows that he is the owner of the contract.
