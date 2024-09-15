@@ -2,6 +2,15 @@
 
 ## Exercises
 
+- ### [Structs 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_2.cairo)
+    Address all the TODOs to make the tests pass!
+
+    Remember: There are some shortcuts that can be taken when destructuring structs.
+
+    let Foo {x, y} = foo; Creates variables x and y with values foo.x and foo.y
+
+    let Foo {x: a, y: b} = foo; Creates variables a and b with values foo.x and foo.y
+
 - ### [Structs 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_3.cairo)
     Structs contain data, but can also have logic. In this exercise we have defined the Package struct and we want to test some logic attached to it.
 
@@ -113,6 +122,14 @@
 
 
 ## Hints
+
+- ### [Structs 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_2.cairo)
+    Cairo requires you to initialize all fields when creating a struct and there is no update syntax available at the moment.
+    You can have multiple data types in a struct, and even other structs.
+
+    Read more about structs in the Structs section of this article: https://book.cairo-lang.org/ch05-01-defining-and-instantiating-structs.html 
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
 
 - ### [Structs 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_3.cairo)
     For is_international: What makes a package international? Seems related to the places it goes through right?
