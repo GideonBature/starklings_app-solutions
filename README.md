@@ -2,6 +2,12 @@
 
 ## Exercises
 
+- ### [Options 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/options_1.cairo)
+    Having trouble to solve this one? Click 'GET HINT' button for help!
+
+- ### [Options 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/options_2.cairo)
+    Having trouble to solve this one? Click 'GET HINT' button for help!
+
 - ### [Options 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/options_3.cairo)
     Having trouble to solve this one? Click 'GET HINT' button for help!
 
@@ -143,6 +149,18 @@
 
 
 ## Hints
+
+- ### [Options 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/options_1.cairo)
+    Options can have a Some value, with an inner value, or a None value, without an inner value.
+    There's multiple ways to get at the inner value, you can use unwrap, or pattern match. 
+    Unwrapping is the easiest, but how do you do it safely so that it doesn't panic in your face later?
+    https://book.cairo-lang.org/ch06-01-enums.html#the-option-enum-and-its-advantages
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
+- ### [Options 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/options_2.cairo)
+    check out: https://github.com/starkware-libs/cairo/blob/main/corelib/src/option.cairo to see the implementation of the Option type and its methods.
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
 
 - ### [Options 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/options_3.cairo)
     Reminder: You can use a match statement with an Option to handle both the Some and None cases.
