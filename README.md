@@ -8,6 +8,29 @@
 - ### [Move Semantics 6](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_6.cairo)
     You can't change anything except adding or removing references.
 
+- ### [Traits 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/traits_1.cairo)
+    Time to implement some traits!
+
+    Your task is to implement the trait `AnimalTrait` for the type `Animal`
+
+    Fill in the impl block to make the code work.
+
+- ### [Traits 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/traits_2.cairo)
+
+    The previous exercise did not make the distinction between different types of animals, but this one does.
+
+    The trait `AnimalTrait` has two functions:
+
+    `new` and `make_noise`.
+
+    `new` should return a new instance of the type implementing the trait.
+
+    `make_noise` should return the noise the animal makes.
+
+    The types `Cat` and `Cow` are already defined for you.
+
+    You need to implement the trait `AnimalTrait` for them.
+
 ## Hints
 
 - ### [Move Semantics 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_2.cairo)
@@ -71,5 +94,23 @@
     Once you've fixed that, `set_value`'s function signature will also need to be adjusted.
     Can you figure out how?
 
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
+- ### [Traits 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/traits_1.cairo)
+    If you want to implement a trait for a type, you have to implement all the methods in the trait.
+    Based on the signature of the method, you can easily implement it.
+
+    In the test, you need to instantiate two objects of type `Animal`.
+    You can call the method of a trait by using the MyTrait::foo() syntax.
+    How would you instantiate the two objects with AnimalTrait?
+    Maybe you need to specify the type of the object?
+    https://book.cairo-lang.org/ch08-02-traits-in-cairo.html
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
+- ### [Traits 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/traits_2.cairo)
+    No hints for this one! It is very similar to the previous exercise.
 
     Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
