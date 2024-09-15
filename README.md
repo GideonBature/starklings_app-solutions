@@ -2,6 +2,13 @@
 
 ## Exercises
 
+- ### [Arrays 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_1.cairo)
+    Your task is to create an `Array` which holds three elements of type `felt252`.
+
+    The first element shoud be 0.
+
+    Make me compile and pass the test!
+
 - ### [Arrays 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_2.cairo)
     Your task is to make the test pass without modifying the `create_array` function.
 
@@ -133,6 +140,16 @@
 
 
 ## Hints
+
+- ### [Arrays 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_1.cairo)
+    You can declare an array in Cairo using the following syntax:
+    `let your_array = ArrayTrait::new();`
+    You can append elements to an array using the following syntax:
+    `your_array.append(element);`
+    The `pop_front` method removes the first element from the array and returns an Option::Some(value) if the array is not empty, or Option::None() if the array is empty.
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
 
 
 - ### [Arrays 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_2.cairo)
