@@ -2,6 +2,9 @@
 
 ## Exercises
 
+- ### [Structs 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_1.cairo)
+    Address all the TODOs to make the tests pass!
+
 - ### [Structs 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_2.cairo)
     Address all the TODOs to make the tests pass!
 
@@ -122,6 +125,13 @@
 
 
 ## Hints
+
+- ### [Structs 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_1.cairo)
+    Cairo has a single type of struct that are named collections of related data stored in fields.
+    In this exercise you need to complete and implement a struct.
+    Read more about structs in the Structs section of this article: https://book.cairo-lang.org/ch05-01-defining-and-instantiating-structs.html 
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
 
 - ### [Structs 2](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_2.cairo)
     Cairo requires you to initialize all fields when creating a struct and there is no update syntax available at the moment.
