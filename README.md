@@ -2,6 +2,11 @@
 
 ## Exercises
 
+- ### [Structs 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_3.cairo)
+    Structs contain data, but can also have logic. In this exercise we have defined the Package struct and we want to test some logic attached to it.
+
+    Make the code compile and the tests pass!
+
 - ### [Move Semantics 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_1.cairo)
     Having trouble to solve this one? Click 'GET HINT' button for help!
 
@@ -104,7 +109,21 @@
 
 
 
+
+
+
 ## Hints
+
+- ### [Structs 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/structs_3.cairo)
+    For is_international: What makes a package international? Seems related to the places it goes through right?
+
+    For get_fees: This method takes an additional argument, is there a field in the Package struct that this relates to?
+
+    Looking at the test functions will also help you understand more about the syntax.
+    This section will help you understanding more about methods https://book.cairo-lang.org/ch05-03-method-syntax.html
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
 
 - ### [Move Semantics 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/move_semantics_1.cairo)
 
