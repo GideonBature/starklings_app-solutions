@@ -2,6 +2,9 @@
 
 ## Exercises
 
+- ### [Options 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/options_3.cairo)
+    Having trouble to solve this one? Click 'GET HINT' button for help!
+
 - ### [Arrays 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_1.cairo)
     Your task is to create an `Array` which holds three elements of type `felt252`.
 
@@ -140,6 +143,14 @@
 
 
 ## Hints
+
+- ### [Options 3](https://github.com/GideonBature/starklings_app-solutions/blob/main/options_3.cairo)
+    Reminder: You can use a match statement with an Option to handle both the Some and None cases.
+    This syntax is more flexible than using unwrap, which only handles the Some case, and contributes to more robust code.
+
+
+    Remember that you can always check the Cairo book at https://book.cairo-lang.org/ or the Cairo documentation at https://docs.cairo-lang.org/.
+
 
 - ### [Arrays 1](https://github.com/GideonBature/starklings_app-solutions/blob/main/arrays_1.cairo)
     You can declare an array in Cairo using the following syntax:
